@@ -4,7 +4,7 @@
   "description": "Learning node, Express, mongoDB",
   "main": "app.js",
   "scripts": {
-    "start:dev": "nodemon server.js",
+    "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production  nodemon server.js"
   },
   "author": "Ali tadayoni (tadayoni.ali.enayat@gmail.com)",
@@ -12,6 +12,7 @@
   "dependencies": {
     "dotenv": "^16.5.0",
     "express": "^4.21.2",
+    "mongoose": "^5.13.23",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
