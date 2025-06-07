@@ -10,6 +10,7 @@
   "author": "Ali tadayoni (tadayoni.ali.enayat@gmail.com)",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.5.0",
     "express": "^4.21.2",
     "mongoose": "^5.13.23",
